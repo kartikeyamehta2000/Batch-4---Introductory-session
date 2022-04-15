@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="date"></p>
+    <p id="dateh"></p>
+    <p id="datey"></p>
+    <p id="datemo"></p>
+    <p id="datemi"></p>
+    <p id="datems"></p>
+   
+
+    <script>
+        document.getElementById("date").innerHTML = Date();
+        const d = new Date();
+        let hour = d.getHours();
+         document.getElementById("dateh").innerHTML = hour;
+        let year = d.getFullYear();
+        document.getElementById("datey").innerHTML = year;
+        let month = d.getMonth();
+        document.getElementById("datemo").innerHTML = month;
+        let minutes =d.getMinutes();
+        document.getElementById("datemi").innerHTML = minutes;
+        document.getElementById("datems").innerHTML = d.setTime(12);
+        
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

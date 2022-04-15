@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String Operations  :</h1>
+    <p id="demo"></p>
+    <p id="demo1"> </p>
+    <p id="demo2"></p>
+    <p id="demo4"></p>
+     <p id="demo5"></p>
+     <p id="match"></p>
+     <p id="Lower"></p>
+     <p id="upper"></p>
+     
+    <script>
+               let str ="Hi My Name Is Kartikeya";
+               let str2 = "By By ";
+               document.getElementById("demo").innerHTML=str.indexOf("Kartikeya");
+               document.getElementById("demo1").innerHTML=str.length;
+               document.getElementById("demo2").innerHTML=str.lastIndexOf("Is");
+               document.getElementById("demo4").innerHTML=str.startsWith("Hi");
+               document.getElementById("demo5").innerHTML=str2.endsWith("By");
+               document.getElementById("Lower").innerHTML=str.toLowerCase();
+               document.getElementById("upper").innerHTML=str.toUpperCase();
+               document.getElementById("demo6").innerHTML=str.concat(" .... ",str2);
+              
+
+
+    </script>
+</body>
+</html>

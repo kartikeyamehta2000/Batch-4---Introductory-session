@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        //1st WAY
+        const str = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, tempora laborum, cumque numquam magnam expedita optio quo obcaecati alias ullam cum error repudiandae commodi voluptatem, doloribus dolorum facilis nam natus?";
+        document.getElementById("demo").innerHTML = str.split('').reverse().join('');
+        
+        //2nd WAY
+        const str2 = ["A", "B", "C", "D"];
+        document.getElementById("demo1").innerHTML = str2.reverse();
+
+       
+
+
+        // 3rd WAY 
+        function reverseString(str) {
+
+        
+            let newString = "";
+            for (let i = str.length - 1; i >= 0; i--) {
+                newString = newString+ str[i];
+            }
+            return newString;
+        }
+
+        
+        const string = prompt('Enter a string: ');
+
+        const result = reverseString(string);
+        document.getElementById("demo3").innerHTML=result;
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    color: rgb(220, 177, 20);
+    font-size: 50px;
+}
+#one{
+    text-align:center;
+    color: white;
+    background-color: crimson;
+    margin: 50px;
+}
+*{
+    background-color: cornsilk;
+    font-size: small;
+}

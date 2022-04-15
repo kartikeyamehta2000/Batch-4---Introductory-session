@@ -1,0 +1,52 @@
+.navbar {
+    background-color: rgb(15, 15, 15);
+    text-align: right;
+    border-radius: 30px;
+
+}
+
+.navbar {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    /* padding: 3px 3px; */
+    color: white;
+
+}
+
+li {
+    margin: 15px 20px;
+    text-align: right;
+}
+
+
+.hov {
+    a:hover {
+        background-color: cornflowerblues;
+    }
+}
+
+h3 {
+    background-color: crimson;
+    color: white;
+    border: 20px;
+    border-radius: 40px;
+}
+
+.form {
+    border: 10px;
+    border-color: red;
+    color: rgb(12, 12, 12);
+    padding: 50px;
+    background-color: white;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-align: left;
+   
+}
+div{
+    border-radius: 100px;
+}
